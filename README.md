@@ -25,7 +25,7 @@ Source:<br>
 3️⃣ L. Grüne and J. Pannek, “Nonlinear Model Predictive Control,” Nonlinear Model Predictive Control, pp. 45–69, Nov. 2016, doi: 10.1007/978-3-319-46024-6_3.<br>
 4️⃣ ACADO Toolkit (https://travis-ci.org/acado/acado.png?branch=stable, master),” GitHub, Jan. 18, 2023. https://github.com/acado/acado (accessed Jan. 27, 2023).<br><br><br>
 
-## :large_blue_diamond: Bressenham Logic<br>
+## :large_blue_diamond: Bresenham Logic<br>
 The line segment is the basic entity in virtually all computer graphics systems. J.E. Bresenham's algorithm (1965) efficiently scan converts line segments because it requires only an integer addition and a sign test for each pixel generated. It is the standard for scan converting a line segment. Some approaches are used to achieve speedup. There are to parallelize the line generation process, and the rest is to take advantage of the repeated patterns that the algorithm generates.
 
 Source:<br>
