@@ -42,4 +42,12 @@ Source:<br>
 1️⃣ D.-I. Kim, J. W. Jeon, and S. Kim, “Software acceleration/deceleration methods for industrial robots and CNC machine tools,” Mechatronics, vol. 4, no. 1, pp. 37–53, Feb. 1994, doi: 10.1016/0957-4158(94)90049-3.<br>
 2️⃣ Y. Koren, “Control of Machine Tools,” Journal of Manufacturing Science and Engineering, vol. 119, no. 4B, pp. 749–755, Nov. 1997, doi: 10.1115/1.2836820.<br>
 3️⃣ X. Shi, B. Xu, W. Xie, and B. Li, “Design and implementation of S-shape acceleration/deceleration algorithm based on rounding error compensation tactic,” 2008 7th World Congress on Intelligent Control and Automation, no. 10343276, 2008, doi: 10.1109/wcica.2008.4594593.<br>
-4️⃣ Zhang, Z., Guo, S., Wang, H., & Deng, S. (2012). A new acceleration and deceleration algorithm and applications. 2012 Second International Conference on Intelligent System Design and Engineering Application. doi:10.1109/isdea.2012.660.<br>
+4️⃣ Zhang, Z., Guo, S., Wang, H., & Deng, S. (2012). A new acceleration and deceleration algorithm and applications. 2012 Second International Conference on Intelligent System Design and Engineering Application. doi:10.1109/isdea.2012.660.<br><br><br>
+
+## :large_blue_diamond: PID Logic<br>
+
+A proportional–integral–derivative controller (PID controller or three-term controller) is a control loop mechanism employing feedback that is widely used in industrial control systems and a variety of other applications requiring continuously modulated control. A PID controller continuously calculates an error value e(t) as the difference between a desired setpoint (SP) and a measured process variable (PV) and applies a correction based on proportional, integral, and derivative terms (denoted P, I, and D respectively), hence the name.<br>
+
+In practical terms, PID automatically applies an accurate and responsive correction to a control function. An everyday example is the cruise control on a car, where ascending a hill would lower speed if constant engine power were applied. The controller's PID algorithm restores the measured speed to the desired speed with minimal delay and overshoot by increasing the power output of the engine in a controlled manner.<br>
+
+The first theoretical analysis and practical application of PID was in the field of automatic steering systems for ships, developed from the early 1920s onwards. It was then used for automatic process control in the manufacturing industry, where it was widely implemented in pneumatic and then electronic controllers. Today the PID concept is used universally in applications requiring accurate and optimized automatic control. (from : https://en.wikipedia.org/wiki/PID_controller)<br>
