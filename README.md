@@ -13,4 +13,14 @@ Source:
 
 1️⃣ Y. Xie, H. Zhang, L. She, G. Xiao, C. Zhai, and T.-C. Pan, “Design and Implementation of an Efficient Tracking Differentiator,” IEEE Access, vol. 7, pp. 101941–101949, 2019, doi: 10.1109/access.2019.2930963.
 2️⃣ X. Zheng, Y. Zhang, M. Yang, X. Liu, and Z. Li, “Substantiations and Numerics of Continuous-Time Linear HTD (Han Tracking Differentiator) and Nonlinear or Unequal-Parameter ZTD (Zhang Time Derivativer) of Order 4,” 2021 33rd Chinese Control and Decision Conference (CCDC), May 2021, doi: 10.1109/ccdc52312.2021.9602171.
-3️⃣ H. Zhang et al., “Discrete-Time Optimal Control of Double Integrators and its Application in Maglev Train,” IEEJ Journal of Industry Applications, vol. 11, no. 2, pp. 236–244, Mar. 2022, doi: 10.1541/ieejjia.21005456.
+3️⃣ H. Zhang et al., “Discrete-Time Optimal Control of Double Integrators and its Application in Maglev Train,” IEEJ Journal of Industry Applications, vol. 11, no. 2, pp. 236–244, Mar. 2022, doi: 10.1541/ieejjia.21005456.<br><br><br>
+
+## :large_blue_diamond: NMPC Logic
+The basic of NMPC algorithm for constant reference and continue by formalizing state and control constraints. Viability (or weak forward invariance) of the set of state constraints is introduced and the consequences for the admissibility of the NMPC-feedback law. A streamlined implementation is presented for constrained linear systems. The algorithm is shown to be nominally stabilizing in the presence of constraints provided inconsistent state constraints are relaxed.
+
+Source:
+
+1️⃣ Lalo Magni, Davide Martino Raimondo, and AllgöwerF., Nonlinear model predictive control : towards new challenging applications. Berlin ; Heidelberg: Springer, Cop, 2009.
+2️⃣ J. B. Rawlings, E. S. Meadows, and K. R. Muske, “Nonlinear Model Predictive Control: A Tutorial and Survey,” IFAC Proceedings Volumes, vol. 27, no. 2, pp. 185–197, May 1994, doi: 10.1016/s1474-6670(17)48151-1.
+3️⃣ L. Grüne and J. Pannek, “Nonlinear Model Predictive Control,” Nonlinear Model Predictive Control, pp. 45–69, Nov. 2016, doi: 10.1007/978-3-319-46024-6_3.
+4️⃣ ACADO Toolkit (https://travis-ci.org/acado/acado.png?branch=stable, master),” GitHub, Jan. 18, 2023. https://github.com/acado/acado (accessed Jan. 27, 2023).
